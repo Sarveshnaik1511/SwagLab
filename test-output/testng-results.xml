@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="4" failed="1" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-10T00:01:46 IST" name="Default suite" finished-at="2024-06-10T00:02:29 IST" duration-ms="43227">
+    <groups>
+    </groups>
+    <test started-at="2024-06-10T00:01:46 IST" name="Default test" finished-at="2024-06-10T00:02:29 IST" duration-ms="43227">
+      <class name="test.SwagLabLoginTest">
+        <test-method is-config="true" signature="openSwaglab()[pri:0, instance:test.SwagLabLoginTest@1aafa419]" started-at="2024-06-10T00:01:47 IST" name="openSwaglab" finished-at="2024-06-10T00:01:58 IST" duration-ms="10828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSwaglab -->
+        <test-method signature="testLoginBystandard_user()[pri:1, instance:test.SwagLabLoginTest@1aafa419]" started-at="2024-06-10T00:01:58 IST" name="testLoginBystandard_user" finished-at="2024-06-10T00:02:06 IST" duration-ms="8077" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at test.SwagLabLoginTest.testLoginBystandard_user(SwagLabLoginTest.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginBystandard_user -->
+        <test-method is-config="true" signature="addReportStatus(org.testng.ITestResult)[pri:0, instance:test.SwagLabLoginTest@1aafa419]" started-at="2024-06-10T00:02:06 IST" name="addReportStatus" finished-at="2024-06-10T00:02:07 IST" duration-ms="248" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginBystandard_user status=FAILURE method=SwagLabLoginTest.testLoginBystandard_user()[pri:1, instance:test.SwagLabLoginTest@1aafa419] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addReportStatus -->
+        <test-method is-config="true" signature="openSwaglab()[pri:0, instance:test.SwagLabLoginTest@1aafa419]" started-at="2024-06-10T00:02:07 IST" name="openSwaglab" finished-at="2024-06-10T00:02:09 IST" duration-ms="2516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSwaglab -->
+        <test-method signature="testLoginBylocked_out_user()[pri:2, instance:test.SwagLabLoginTest@1aafa419]" started-at="2024-06-10T00:02:09 IST" name="testLoginBylocked_out_user" finished-at="2024-06-10T00:02:10 IST" duration-ms="1333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginBylocked_out_user -->
+        <test-method is-config="true" signature="addReportStatus(org.testng.ITestResult)[pri:0, instance:test.SwagLabLoginTest@1aafa419]" started-at="2024-06-10T00:02:10 IST" name="addReportStatus" finished-at="2024-06-10T00:02:11 IST" duration-ms="145" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginBylocked_out_user status=SUCCESS method=SwagLabLoginTest.testLoginBylocked_out_user()[pri:2, instance:test.SwagLabLoginTest@1aafa419] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addReportStatus -->
+        <test-method signature="loginByproblem_user()[pri:3, instance:test.SwagLabLoginTest@1aafa419]" started-at="2024-06-10T00:02:11 IST" name="loginByproblem_user" finished-at="2024-06-10T00:02:11 IST" depends-on-methods="test.SwagLabLoginTest.testLoginBystandard_user" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method test.SwagLabLoginTest.loginByproblem_user() on instance test.SwagLabLoginTest@1aafa419 depends on not successfully finished methods 
+[test.SwagLabLoginTest.testLoginBystandard_user() on instance test.SwagLabLoginTest@1aafa419]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method test.SwagLabLoginTest.loginByproblem_user() on instance test.SwagLabLoginTest@1aafa419 depends on not successfully finished methods 
+[test.SwagLabLoginTest.testLoginBystandard_user() on instance test.SwagLabLoginTest@1aafa419]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginByproblem_user -->
+        <test-method is-config="true" signature="openSwaglab()[pri:0, instance:test.SwagLabLoginTest@1aafa419]" started-at="2024-06-10T00:02:11 IST" name="openSwaglab" finished-at="2024-06-10T00:02:13 IST" duration-ms="2748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSwaglab -->
+        <test-method signature="loginByperformance_glitch_user()[pri:4, instance:test.SwagLabLoginTest@1aafa419]" started-at="2024-06-10T00:02:13 IST" name="loginByperformance_glitch_user" finished-at="2024-06-10T00:02:20 IST" duration-ms="6327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginByperformance_glitch_user -->
+        <test-method is-config="true" signature="addReportStatus(org.testng.ITestResult)[pri:0, instance:test.SwagLabLoginTest@1aafa419]" started-at="2024-06-10T00:02:20 IST" name="addReportStatus" finished-at="2024-06-10T00:02:20 IST" duration-ms="157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginByperformance_glitch_user status=SUCCESS method=SwagLabLoginTest.loginByperformance_glitch_user()[pri:4, instance:test.SwagLabLoginTest@1aafa419] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addReportStatus -->
+        <test-method is-config="true" signature="openSwaglab()[pri:0, instance:test.SwagLabLoginTest@1aafa419]" started-at="2024-06-10T00:02:20 IST" name="openSwaglab" finished-at="2024-06-10T00:02:23 IST" duration-ms="2840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSwaglab -->
+        <test-method signature="loginByerror_user()[pri:5, instance:test.SwagLabLoginTest@1aafa419]" started-at="2024-06-10T00:02:23 IST" name="loginByerror_user" finished-at="2024-06-10T00:02:24 IST" duration-ms="1442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginByerror_user -->
+        <test-method is-config="true" signature="addReportStatus(org.testng.ITestResult)[pri:0, instance:test.SwagLabLoginTest@1aafa419]" started-at="2024-06-10T00:02:24 IST" name="addReportStatus" finished-at="2024-06-10T00:02:24 IST" duration-ms="176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginByerror_user status=SUCCESS method=SwagLabLoginTest.loginByerror_user()[pri:5, instance:test.SwagLabLoginTest@1aafa419] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addReportStatus -->
+        <test-method is-config="true" signature="openSwaglab()[pri:0, instance:test.SwagLabLoginTest@1aafa419]" started-at="2024-06-10T00:02:24 IST" name="openSwaglab" finished-at="2024-06-10T00:02:28 IST" duration-ms="3629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSwaglab -->
+        <test-method signature="loginByvisual_user()[pri:6, instance:test.SwagLabLoginTest@1aafa419]" started-at="2024-06-10T00:02:28 IST" name="loginByvisual_user" finished-at="2024-06-10T00:02:29 IST" duration-ms="1008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginByvisual_user -->
+        <test-method is-config="true" signature="addReportStatus(org.testng.ITestResult)[pri:0, instance:test.SwagLabLoginTest@1aafa419]" started-at="2024-06-10T00:02:29 IST" name="addReportStatus" finished-at="2024-06-10T00:02:29 IST" duration-ms="159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginByvisual_user status=SUCCESS method=SwagLabLoginTest.loginByvisual_user()[pri:6, instance:test.SwagLabLoginTest@1aafa419] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addReportStatus -->
+      </class> <!-- test.SwagLabLoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
